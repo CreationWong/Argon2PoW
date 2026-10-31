@@ -7,9 +7,9 @@
 
 界面使用 Qt 原生控件（`QGroupBox`、`QFormLayout`、`QScrollArea`、`QMenuBar`、`QStatusBar` 等），由平台 `QStyle` 绘制；没有使用 QML、WebEngine、自定义全局样式表或自绘装饰。两个窗口按操作步骤从上到下排列，技术参数默认收起。启动时默认采用最小可用窗口尺寸（600×460 逻辑像素，随系统缩放），内容超出时可滚动查看，也可手动放大窗口。
 
-![出题端](docs/generator.png)
+![出题端](docs/user/images/generator.png)
 
-![解答端](docs/solver.png)
+![解答端](docs/user/images/solver.png)
 
 ## 与参考脚本的兼容性
 
